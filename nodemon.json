@@ -1,0 +1,8 @@
+{
+    "watch": ["./"],
+    "ignoreWatch": ["node_modules/*"],
+    "ext": "*",
+    "execMap": {
+        "ts": "sucrase-node src/server.ts"
+    }
+}
